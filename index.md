@@ -44,17 +44,17 @@ Könyvtár | Leírás
 /sys | Egy interfészt nyújt fájlrendszer formájában a kernel konfigurációkról és csatlakoztatott eszközökről. Ez egy linux-specifikus könyvtár, aminek a felépítéséről az FHS nem rendelkezik.
 /tmp | A rendszer által használt ideiglenes fájlok könyvtára. A könyvtár minden rendszerindításkor kitörlődik.
 /usr | Minden felhasználó specifikus programok, könyvtárak, dokumentációk stb. könyvtára.
-	/usr/bin | Hasonló a /bin könyvtárhoz, de az itt található programok már nem alapprogramok.
-	/usr/include | Standard include fájlok (pl. stdio.h) könyvtára.
-	/usr/lib | /usr/bin és /usr/sbin könyvtárakban található programok által használt könyvtárak könyvtára.
-	/usr/local | Hasonló a /usr könyvtárhoz, de az itt található programok garantáltan érintetlenek maradnak rendszerfrissítés után is.
-	/usr/sbin | Hasonló az /sbin könyvtárhoz, de az itt található programok már nem alapprogramok.
-	/usr/share | Architektúra független megosztott adatok könyvtára.
+/usr/bin | Hasonló a /bin könyvtárhoz, de az itt található programok már nem alapprogramok.
+/usr/include | Standard include fájlok (pl. stdio.h) könyvtára.
+/usr/lib | /usr/bin és /usr/sbin könyvtárakban található programok által használt könyvtárak könyvtára.
+/usr/local | Hasonló a /usr könyvtárhoz, de az itt található programok garantáltan érintetlenek maradnak rendszerfrissítés után is.
+/usr/sbin | Hasonló az /sbin könyvtárhoz, de az itt található programok már nem alapprogramok.
+/usr/share | Architektúra független megosztott adatok könyvtára.
 /var | Olyan fájlok könyvtára, amelyeknek a tartalma folyamatosan változhat a rendszer futása során.
-	/var/cache | Alkalmazások cachelt adatainak könyvtára. Ennek a könyvtárnak a tartalma adatvesztés veszélye nélkül kitörölhető.
-	/var/lock | Lock fájlok könyvtára. Ezek a fájlok tartják számon az aktuálisan lefoglalt erőforrásokat.
-	/var/log | Mindenféle log fájl könyvtára.
-	/var/mail | Mailbox fájlok könyvtára. Egyes disztribúciók az elavult /var/spool/mail könyvtárban tárolhatják ezeket a fájlokat.
-	/var/run | Rendszerindítás óta nyílvántartott információk a rendszerről.
-	/var/spool | Spool fájlok könyvtára. Itt tárolódnak azok a taszkok, amik jövőbeni elvégzésre várnak, mint pl. egy csatlakoztatott nyomtató számára fentartott nyomtatás parancsok listája.
-	/var/tmp | Olyan fájlok könyvtára, amikre egyes programoknak szüksége van a rendszer újraindítása után is.
+/var/cache | Alkalmazások cachelt adatainak könyvtára. Ennek a könyvtárnak a tartalma adatvesztés veszélye nélkül kitörölhető.
+/var/lock | Lock fájlok könyvtára. Ezek a fájlok tartják számon az aktuálisan lefoglalt erőforrásokat.
+/var/log | Mindenféle log fájl könyvtára.
+/var/mail | Mailbox fájlok könyvtára. Egyes disztribúciók az elavult /var/spool/mail könyvtárban tárolhatják ezeket a fájlokat.
+/var/run | Rendszerindítás óta nyílvántartott információk a rendszerről.
+/var/spool | Spool fájlok könyvtára. Itt tárolódnak azok a taszkok, amik jövőbeni elvégzésre várnak, mint pl. egy csatlakoztatott nyomtató számára fentartott nyomtatás parancsok listája.
+/var/tmp | Olyan fájlok könyvtára, amikre egyes programoknak szüksége van a rendszer újraindítása után is.
